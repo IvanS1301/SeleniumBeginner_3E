@@ -9,11 +9,11 @@ from selenium.common.exceptions import TimeoutException
 # ==========================================
 
 # Test data
-LEAD_NAME = "Westgate Warehousing"
+LEAD_NAME = "Garden Atrium Restaurant"
 
 # Replace these with your demo account credentials
-EMAIL = "AGENT3A@gmail.com"
-PASSWORD = "AGENT3A-QualityAssurance!"
+EMAIL = "AGENT3E@gmail.com"
+PASSWORD = "AGENT3E-QualityAssurance!"
 
 
 driver = webdriver.Chrome()

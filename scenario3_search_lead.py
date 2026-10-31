@@ -8,12 +8,12 @@ from selenium.common.exceptions import TimeoutException
 # SCENARIO 3: SEARCH AND VERIFY A LEAD
 # ==========================================
 
-# Test data: Use a lead created in Scenario 2
-LEAD_NAME = "Soriano, Ivan D."
+# Test data
+LEAD_NAME = "Westgate Warehousing"
 
 # Replace these with your demo account credentials
-EMAIL = "BSIT3B@gmail.com"
-PASSWORD = "BSIT3B-QualityAssurance!"
+EMAIL = "AGENT3A@gmail.com"
+PASSWORD = "AGENT3A-QualityAssurance!"
 
 
 driver = webdriver.Chrome()
@@ -65,7 +65,9 @@ try:
 
     # STEP 6: Wait for the Leads page heading
     wait.until(
-        EC.visibility_of_element_located((By.XPATH, "//*[normalize-space()='LEADS']"))
+        EC.visibility_of_element_located(
+            (By.XPATH, "//*[normalize-space()='ASSIGNED LEADS']")
+        )
     )
 
     print("Leads page opened.")

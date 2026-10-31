@@ -14,12 +14,12 @@ import re
 # ==========================================
 
 # TEST ACCOUNT CREDENTIALS
-EMAIL = "AGENT3B@gmail.com"
-PASSWORD = "AGENT3B-QualityAssurance!"
+EMAIL = "AGENT3A@gmail.com"
+PASSWORD = "AGENT3A-QualityAssurance!"
 
 # TEST DATA
-LEAD_NAME = "Dressed by Jackie"
-EXPECTED_RECIPIENT = "mikeandjac@live.com.au"
+LEAD_NAME = "Westgate Warehousing"
+EXPECTED_RECIPIENT = "contact024@business024.example"
 
 SUBJECT_TEMPLATE = (
     "Congratulations! You're Eligible for a Free Hot Water System Upgrade"
@@ -324,7 +324,7 @@ try:
         "[Customer's Name]": "Ivan Soriano",
         "[Your Contact Information]": "1300 000 000",
         "[Your Website URL]": "https://example.com",
-        "[Telemarketer Name]": "BSIT 3B",
+        "[Telemarketer Name]": "BSIT 3A",
     }
 
     # ==========================================

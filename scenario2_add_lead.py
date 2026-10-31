@@ -11,8 +11,8 @@ from selenium.webdriver.common.keys import Keys
 # ==========================================
 
 # Replace with your test account credentials
-EMAIL = "BSIT3B@gmail.com"
-PASSWORD = "BSIT3B-QualityAssurance!"
+EMAIL = "BSIT3A@gmail.com"
+PASSWORD = "BSIT3A-QualityAssurance!"
 
 # Use unique test data for each run
 LEAD_NAME = "Soriano, Ivan D."
@@ -30,7 +30,7 @@ LEAD_EMAIL = "ivan@gmail.com"
 driver = webdriver.Chrome()
 driver.maximize_window()
 
-wait = WebDriverWait(driver, 120)
+wait = WebDriverWait(driver, 60)
 
 try:
     print("SCENARIO 2: ADD A NEW LEAD")
